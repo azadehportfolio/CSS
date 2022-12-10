@@ -1,0 +1,57 @@
+.img {
+    float: ;
+}
+.ul {
+    background-color: blueviolet;
+    float: left;
+    list-style-type: none;
+    overflow:hidden;
+    text-align: center;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    
+   }
+.li{
+    float: left;
+}
+   
+.li a{
+       
+       padding: 15px;
+       text-align: center;
+       text-decoration: none;
+   }
+.li a:hover {
+       background-color: aqua;
+       color: beige;
+   }
+
+ul {
+    background-color: rgb(43, 226, 83);
+    float: left;
+    list-style-type: none;
+    overflow:hidden;
+    text-align: center;
+    width: 100%;
+    padding:10px;
+    position: fixed;
+    
+   }
+   li{
+    float: left;
+}
+   
+li a{
+       
+       padding: 15px;
+       text-align: center;
+       text-decoration: none;
+   }
+li a:hover {
+       background-color: aqua;
+       color: beige;
+   }
+  
+   
+   

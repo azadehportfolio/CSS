@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    size: 30px;
+    }
+.P1,.p2,.p3 {
+     font-variant:small-caps;
+}
+
+#P1,#p2,#p3 {
+    font-variant:small-caps;
+}
+
+#pid {
+    color:blueviolet;
+}
+#divid{
+    color:aqua;
+    text-align: center;
+}
+.divclass {
+    color: green;
+}
+
+h3{
+    color:brown;
+    text-align: center;
+}
+.p1 {
+    color: rgb(190,210,250)
+}
+
+.p2 {
+    color:#ff5577;
+}
+
+.p3 {
+    color:hsla(174,100%,50%)
+}

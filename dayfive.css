@@ -1,0 +1,51 @@
+/*@media (min-width:800px)
+{
+   body{
+     background-color: rgb(0, 255, 85);} 
+
+    IMG {width:700px;}
+        
+    
+}
+@media (max-width:500px)
+
+ { 
+    h1 {font-size:50px;}
+}*/
+
+@media (max-width:500px) and (min-width:400px)
+{ 
+    body {
+        background-color: purple;
+        }    
+}
+/* be4 and after*/
+
+h1::after {
+    content: url(/img/download.png);
+    float:right;
+    content:"you can chnage my color";
+    background-color:blue;
+}
+
+h1::before {
+    content:"b4 heading one";
+    background-color: green;
+} 
+.first:hover{
+    background-color: aquamarine;
+}
+
+p[title="first"] {
+    background-color: brown;
+}
+
+div, p[title="second"] {
+    background-color: yellowgreen;
+}
+#id {
+    background-color: gold;
+}
+#id:hover{
+    background-color: lightpink;
+}
