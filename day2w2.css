@@ -1,0 +1,66 @@
+.container {
+    background-color: lightblue;
+    text-align: center;
+    width: 600px;
+    margin: 50px auto;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    display: block;
+    align-self: center;
+    
+}
+/*--selcting the first element on the list*/
+li:first-child {
+    color:red;
+}
+li:last-child {
+    color:blue;
+}
+
+/*selecting specific child */
+li:nth-child(5)
+{
+    color:aquamarine
+}
+/*selecting all the even child*/
+li:nth-child(even)
+{
+    color:blueviolet
+}
+/*selecting all the odd child
+li:nth-child(odd)*/
+/*selecting every fourth element*/
+li:nth-child(4n) 
+{
+    color:rgb(255, 127, 133);
+}
+<!--pseudo Elements-->
+p::first-letter
+{
+    font-size: 40px;
+    color:blueviolet;
+}
+p::first-line
+{
+    font-size: 40px;
+    color:blueviolet;
+}
+p::selection {
+    color:rgb(4, 71, 49);
+    background-color: bisque;
+}
+/* the content property is used with 
+::before and ::after pseudo elements to insert the generated content*/
+p::after {
+    content: "the content here is added b4 the paragraph";
+    color:brown;
+}
+p::before {
+    content: "the content here is added b4 the paragraph";
+    color:brown;
+}

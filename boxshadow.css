@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    
+}
+.box {
+    border:1px solid green;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(182 226 225);
+
+/*box-shadow:offset-x offset-y color; */
+/*the above offset values can be negative*/
+/*box-shadow: 10px 15px darkgreen; shadow right bottom*/
+/*box-shadow: -10px -15px color; shadow top left*/
+
+/*blur radios*/
+box-shadow: -10px -15px 15px blue;
+
+/*spread raduius*/
+
+box-shadow: 10px 15px 15px 30px blue; 
+
+/*inside effect */
+
+box-shadow: inset 10px 15px green;
+
+/* to implememnt multiple shadow by using ,*/
+box-shadow: 20px 20px green, 15px 15px red;
+}
+
+h3 {
+    text-shadow: 5px 5px green;
+}
+.grade {
+    border: 1px solid black;
+    width:200px;
+    height:200px;
+    background-image: linear-gradient(red, white, green);
+    /* defualt is top to bottom */
+    /* to left */
+    background-image: linear-gradient(to left, red, white, green);
+    /* show in degrees*/
+    background-image: linear-gradient(90deg, red, white, green);
+
+    /*redial gradiant*/
+    background-image: radial-gradient(red, white 40%, green 40%);
+}

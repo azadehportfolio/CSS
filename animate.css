@@ -1,0 +1,102 @@
+#anim1 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: changeBackgroundColor;
+    animation-duration: 5s;
+}
+@keyframes changeBackgroundColor {
+    from {
+        background-color: aqua;
+         }
+    to {
+        background-color: blue;
+       }
+}
+
+#anim2 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: changeBackground;
+    animation-duration: 5s;
+    animation-direction: reverse;
+    animation-timing-function: ease-in;
+}
+@keyframes changeBackground {
+    0% {
+        background-color: rgb(255, 81, 0);
+        size: 20px;
+         }
+    25% {
+        background-color: rgb(0, 255, 64);
+        size: 40px;
+    }
+    75% {
+        background-color: rgb(255, 0, 170);
+        size: 60px;
+    }
+    100% {
+        background-color: rgb(0, 255, 42);
+        size: 80px;
+    }
+}
+#anim3 {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: change;
+    animation-duration: 15s;
+    position: relative;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+}
+@keyframes change {
+    0% {
+        background-color: rgb(0, 132, 255); 
+        left:0px;
+        top:0px;
+         }
+    25% {
+        background-color: rgb(111, 0, 255);
+        left:200px;
+        top:0px;
+    }
+    75% {
+        background-color: rgb(255, 0, 170);
+        left:0px;
+        top:200px;
+    }
+    100% {
+        background-color: rgb(0, 255, 42);
+        left:200px;
+        top:0px;
+    }
+}
+
+#border {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    animation-name: borderRadius;
+    animation-duration: 20s;
+   
+}
+@keyframes borderRadius {
+    0% {
+        background-color: rgb(0, 132, 255);
+        border-radius: 0%;
+         }
+    25% {
+        background-color: rgb(111, 0, 255);
+        border-radius: 25%;
+    }
+    75% {
+        background-color: rgb(255, 0, 170);
+        border-radius: 50%;
+    }
+    100% {
+        background-color: rgb(0, 255, 42);
+        border-radius: 100%;
+    }
+}
